@@ -1,0 +1,137 @@
+:root {
+    /***** font-family *****/
+    --font-primary: "Normalidad";
+
+    /***** font-size *****/
+    --fs-very-small: 12px;
+    --fs-sm: 14px;
+    --fs-md: 24px;
+    --fs-lg: 36px;
+    --fs-xl: 96px;
+
+    /***** line-height *****/
+    --lh-16: 16px;
+    --lh-24: 24px;
+    --lh-20: 20px;
+    --lh-36: 36px;
+    --lh-86: 86.4px;
+    --lh-: ;
+
+    /***** color *****/
+    --color-white: white;
+    --color-black: black;
+    --color-dark-sea: #4D545E;
+    --color-sheffield-grey: #6E7681;
+    --color-midnight-pines: #1F2309;
+    --color-lime-yellow: #D4FF27;
+    --bg-ruined-smores: #0D1012;
+    --bg-lime-yellow: #D4FF27;
+    --bg-black-pearl: #1F272E;
+    --bg-river-styx: #151A1F;
+}
+
+/***** font-family *****/
+.font-primary {
+    font-family: var(--font-primary);
+}
+
+/***** font-size *****/
+.fs-very-small {
+    font-size: var(--fs-very-small);
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fs-lg {
+    font-size: var(--fs-lg);
+}
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
+/***** line-height *****/
+.lh-16 {
+    line-height: var(--lh-16);
+}
+
+.lh-20 {
+    line-height: var(--lh-20);
+}
+
+.lh-24 {
+    line-height: var(--lh-24);
+}
+
+.lh-36 {
+    line-height: var(--lh-36);
+}
+
+.lh- {
+    line-height: var();
+}
+
+.lh- {
+    line-height: var();
+}
+
+.lh- {
+    line-height: var();
+}
+
+.lh- {
+    line-height: var();
+}
+
+.lh- {
+    line-height: var();
+}
+
+.color-lime-yellow {
+    color: var(--color-lime-yellow);
+}
+
+.color-dark-sea {
+    color: var(--color-dark-sea);
+}
+
+.color-sheffield-grey {
+    color: var(--color-sheffield-grey);
+}
+
+.color-midnight-pines {
+    color: var(--color-midnight-pines);
+}
+
+.bg-lime-yellow {
+    background-color: var(--bg-lime-yellow);
+}
+
+.bg-black-pearl {
+    background-color: var(--bg-black-pearl);
+}
+
+.bg-river-styx {
+    background-color: var(--bg-river-styx);
+}
+
+@media (max-width:767.98px) {
+    :root {
+        --fs-xl: 60px;
+        --lh-86: normal;
+    }
+}
+
+@media (max-width:575.98px) {
+    :root {
+        --fs-xl: 48px;
+        --lh-86: normal;
+    }
+}
