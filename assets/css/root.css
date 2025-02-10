@@ -15,7 +15,6 @@
     --lh-20: 20px;
     --lh-36: 36px;
     --lh-86: 86.4px;
-    --lh-: ;
 
     /***** color *****/
     --color-white: white;
@@ -43,7 +42,6 @@
 .fs-sm {
     font-size: var(--fs-sm);
 }
-
 
 .fs-md {
     font-size: var(--fs-md);
@@ -74,24 +72,8 @@
     line-height: var(--lh-36);
 }
 
-.lh- {
-    line-height: var();
-}
-
-.lh- {
-    line-height: var();
-}
-
-.lh- {
-    line-height: var();
-}
-
-.lh- {
-    line-height: var();
-}
-
-.lh- {
-    line-height: var();
+.lh-86 {
+    line-height: var(--lh-86);
 }
 
 .color-lime-yellow {
