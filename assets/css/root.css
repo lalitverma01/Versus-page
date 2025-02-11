@@ -5,7 +5,6 @@
     /***** font-size *****/
     --fs-very-small: 12px;
     --fs-sm: 14px;
-    --fs-md: 24px;
     --fs-lg: 36px;
     --fs-xl: 96px;
 
@@ -41,10 +40,6 @@
 
 .fs-sm {
     font-size: var(--fs-sm);
-}
-
-.fs-md {
-    font-size: var(--fs-md);
 }
 
 .fs-lg {

@@ -1,14 +1,14 @@
 const navbarbtn = () => {
-    document.getElementById("name").classList.toggle("show-navbar")
-    document.getElementById("rotates").classList.toggle("rotate-42")
+    document.getElementById("nav-name").classList.toggle("show-navbar")
+    document.getElementById("rotats").classList.toggle("rotate40")
     document.getElementById("transparent").classList.toggle("bg-transparent")
-    document.getElementById("rotates2").classList.toggle("rotate-43")
+    document.getElementById("rotats2").classList.toggle("rotate-45")
     document.body.classList.toggle("overflow-hidden")
 }
 
 $('.my-slider').slick({
     dots: false,
-    infinite: false,
+    infinite: true,
     arrows: false,
     speed: 300,
     slidesToShow: 4,
@@ -20,7 +20,7 @@ $('.my-slider').slick({
                 slidesToShow: 3,
                 slidesToScroll: 1,
                 infinite: true,
-                dots: true
+                dots: false
             }
         },
         {
@@ -28,7 +28,7 @@ $('.my-slider').slick({
             settings: {
                 slidesToShow: 2,
                 slidesToScroll: 1,
-                dots: true
+                dots: false
             }
         },
         {
@@ -36,7 +36,7 @@ $('.my-slider').slick({
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                dots: true
+                dots: false
             }
         }
     ]
