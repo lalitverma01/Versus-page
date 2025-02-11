@@ -64,9 +64,39 @@
     max-width: 1440px !important;
 }
 
-/***** margin & padding *****/
+/***** margin padding *****/
 .pl-8 {
     padding-left: 8px;
+}
+
+.py-8 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.pl-24 {
+    padding-left: 24px;
+}
+
+.pt-32 {
+    padding-top: 32px;
+}
+
+.pb-32 {
+    padding-bottom: 32px;
+}
+
+.pt-95 {
+    margin-top: 95px;
+}
+
+.pl-96 {
+    padding-left: 96px;
+}
+
+/***** margin *****/
+.ml-8 {
+    margin-left: 8px !important;
 }
 
 .mt-12 {
@@ -89,17 +119,10 @@
     margin-top: 30px;
 }
 
-.pt-32 {
-    padding-top: 32px;
-}
-
 .mt-32 {
     margin-top: 32px;
 }
 
-.pb-32 {
-    padding-bottom: 32px;
-}
 
 .mb-40 {
     margin-bottom: 40px;
@@ -117,25 +140,12 @@
     margin-left: 65px;
 }
 
-.pt-95 {
-    margin-top: 95px;
-}
-
-.pl-96 {
-    padding-left: 96px;
-}
-
 .mt-96 {
     margin-top: 96px;
 }
 
 .mt-141 {
     margin-top: 141px;
-}
-
-.py-8 {
-    padding-top: 8px;
-    padding-bottom: 8px;
 }
 
 /***** opacity *****/
@@ -166,7 +176,8 @@
     transition: all 300ms linear;
     transform-origin: left;
     border-radius: 10px;
-    background-color: #fff;
+    background-color: var(--color-white);
+    cursor: pointer;
 }
 
 .header-logo {
@@ -175,10 +186,6 @@
 
 .header-logo-image {
     height: 16px;
-}
-
-.nav-bar {
-    max-width: 1440px;
 }
 
 .rotate40 {
@@ -193,50 +200,9 @@
     z-index: 5;
 }
 
-.body {
-    --bs-btn-color: #4D545E !important;
-    color: #4D545E !important;
-}
-
 .dropdown-box {
     border-top: none !important;
     border: 1px solid #1F272E;
-}
-
-.btn {
-    padding: 18px 24px !important;
-}
-
-.nav-link-coming-soon {
-    padding: 2px 8px 2px 8px;
-    border-radius: 40px;
-    background: #1F272E;
-}
-
-
-.pl-24 {
-    padding-left: 24px;
-}
-
-.ml-24 {
-    margin-left: 24px;
-}
-
-.mt-20 {
-    margin-top: 20px;
-}
-
-.ml-8 {
-    margin-left: 8px !important;
-}
-
-.mx-w-835 {
-    max-width: 835px;
-}
-
-.carousel-heading {
-    right: 22%;
-    transform: translateY(-350%);
 }
 
 /***** header *****/
@@ -294,6 +260,11 @@
     background: var(--Colors-Neutrals-Neutral-800, var(--bg-ruined-smores));
     border: 1px solid var(--Colors-Neutrals-Neutral-700, var(--bg-river-styx));
     backdrop-filter: blur(40px);
+}
+
+.slick-track {
+    display: flex !important;
+    gap: 24px;
 }
 
 /***** section-3 *****/
