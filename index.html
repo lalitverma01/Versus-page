@@ -19,7 +19,7 @@
 </head>
 
 <body class="bg-black">
-    <header class="bg-image min-vh-100">
+    <header class="bg-image">
         <nav class="bg-river-styx nav">
             <div class="container max-w-1440">
                 <div
@@ -81,24 +81,69 @@
                 </div>
             </div>
         </nav>
-        <div class="flex-grow-1 d-flex align-content-around justify-content-center">
-            <div class="container">
-                <div class="d-flex justify-content-center">
-                    <img src="./assets/image/svg/line-img-1.svg" alt="line-img-1">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./assets/image/png/header-bg-img.png" class="d-block w-100" alt="header-bg-img">
+                    <div class="carousel-caption">
+                        <div class="heading">
+                            <img src="./assets/image/svg/line-img-1.svg" alt="line-img-1">
+                            <div class="d-flex justify-content-center">
+                                <h1 class="font-primary fw-bold fs-xl lh-86 text-center text-white max-w-835 mb-0">
+                                    CHALLENGE INCOMING</h1>
+                            </div>
+                            <p class="font-primary fw-normal fs-6 lh-16 text-white text-center mt-40">PLAY GAMES. WIN
+                                PRIZES
+                            </p>
+                            <div class="d-flex justify-content-center gap-4 mt-40">
+                                <img src="./assets/image/svg/btn-left-img.svg" alt="btn-left-img" class="btn-left-img">
+                                <button
+                                    class="font-primary fw-medium fs-6 lh-16 text-black bg-lime-yellow btn-3">COMPLETE
+                                    NOW</button>
+                                <img src="./assets/image/svg/btn-rightimg.svg" alt="btn-rightimg" class="btn-right-img">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="d-flex justify-content-center">
-                    <h1 class="font-primary fw-bold fs-xl lh-86 text-center text-white max-w-835 mb-0">CHALLENGE
-                        INCOMING
-                    </h1>
-                </div>
-                <p class="font-primary fw-normal fs-6 lh-16 text-white text-center mt-40">PLAY GAMES. WIN PRIZES</p>
-                <div class="d-flex justify-content-center gap-4 mt-40">
-                    <img src="./assets/image/svg/btn-left-img.svg" alt="btn-left-img" class="w-100">
-                    <button class="font-primary fw-medium fs-6 lh-16 text-black bg-lime-yellow btn-3">COMPLETE
-                        NOW</button>
-                    <img src="./assets/image/svg/btn-rightimg.svg" alt="btn-rightimg" class="w-100">
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./assets/image/png/header-bg-img.png" class="d-block w-100" alt="header-bg-img">
+                    <div class="carousel-caption">
+                        <div class="heading">
+                            <img src="./assets/image/svg/line-img-1.svg" alt="line-img-1">
+                            <div class="d-flex justify-content-center">
+                                <h1 class="font-primary fw-bold fs-xl lh-86 text-center text-white max-w-835 mb-0">
+                                    CHALLENGE INCOMING</h1>
+                            </div>
+                            <p class="font-primary fw-normal fs-6 lh-16 text-white text-center mt-40">PLAY GAMES. WIN
+                                PRIZES
+                            </p>
+                            <div class="d-flex justify-content-center gap-4 mt-40">
+                                <img src="./assets/image/svg/btn-left-img.svg" alt="btn-left-img" class="btn-left-img">
+                                <button
+                                    class="font-primary fw-medium fs-6 lh-16 text-black bg-lime-yellow btn-3">COMPLETE
+                                    NOW</button>
+                                <img src="./assets/image/svg/btn-rightimg.svg" alt="btn-rightimg" class="btn-right-img">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </header>
     <!--**** game-select ****-->
@@ -111,6 +156,8 @@
             <div class="my-slider mt-47">
                 <div class="card-1">
                     <img src="./assets/image/png/slider-img-1.png" alt="slider-img-1" class="w-100">
+                    <img src="./assets/image/png/coming-soon-img.png" alt="coming-soon-img"
+                        class="position-absolute coming-soon-img">
                     <div class="d-flex align-items-center gap-12 mt-4">
                         <img src="./assets/image/svg/valorant-svg.svg" alt="valorant-svg">
                         <p class="font-primary fw-bold fs-6 lh-16 text-white mb-0">VALORANT</p>
@@ -129,6 +176,8 @@
                 </div>
                 <div class="card-1">
                     <img src="./assets/image/png/slider-img-3.png" alt="slider-img-3" class="w-100">
+                    <img src="./assets/image/png/coming-soon-img.png" alt="coming-soon-img"
+                        class="position-absolute coming-soon-img">
                     <div class="d-flex align-items-center gap-12 mt-4">
                         <img src="./assets/image/svg/fortnite-svg.svg" alt="fortnite-svg">
                         <p class="font-primary fw-bold fs-6 lh-16 text-white mb-0">FORTNITE</p>
@@ -136,6 +185,8 @@
                 </div>
                 <div class="card-1">
                     <img src="./assets/image/png/slider-img-4.png" alt="slider-img-4" class="w-100">
+                    <img src="./assets/image/png/coming-soon-img.png" alt="coming-soon-img"
+                        class="position-absolute coming-soon-img">
                     <div class="d-flex align-items-center gap-12 mt-4">
                         <img src="./assets/image/svg/rocket-league.svg" alt="rocket-league.svg">
                         <p class="font-primary fw-bold fs-6 lh-16 text-white mb-0">ROCKET LEAGUE</p>
@@ -161,7 +212,7 @@
                     <img src="./assets/image/png/section-3-line-img.png" alt="">
                 </div>
                 <div class="d-flex justify-content-center">
-                    <iframe class="video w-1 00" width="888" height="480"
+                    <iframe class="video" width="888" height="480"
                         src="https://www.youtube.com/embed/-G7bJVAIiEI?si=gA2RB5CIgQKQ8kQp" title="YouTube video player"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -185,7 +236,7 @@
                                 <img src="./assets/image/svg/cursor-icon.svg" alt="cursor-icon">
                                 <h5 class="font-primary fw-bold fs-sm lh-16 text-white mb-0">MEET</h5>
                             </div>
-                            <div class="d-flex align-items-center icon-parent mb-3 mb-sm-0">
+                            <div class="d-flex align-items-center icon-parent-2 mb-3 mb-sm-0">
                                 <img src="./assets/image/svg/trophy-icon.svg" alt="trophy-icon">
                                 <h5 class="font-primary fw-bold fs-sm lh-16 text-white mb-0">COMPLETE</h5>
                             </div>
@@ -293,19 +344,18 @@
         </div>
     </section>
     <!--**** section-6 ****-->
-    <section>
-        <div class="container bg-lime-yellow rounded-3 max-w-1344 mt- position-relative">
+    <section class="position-relative">
+        <div class="container bg-lime-yellow rounded-3 max-w-1344 mt-96 mb-56 position-relative">
             <img src="./assets/image/png/section-6-img.png" alt="section-6-img"
                 class="position-absolute section-6-img d-lg-block d-none">
             <div class="row align-items-center">
                 <div class="col-12 col-sm-6 col-md-3 mb-md-0 mb-4">
-                    <img src="./assets/image/svg/Camada-01.png" alt="Camada-01" class="img-fluid">
+                    <img src="./assets/image/svg/Camada-01.png" alt="Camada-01" class="img-fluid z-3">
                 </div>
                 <div class="col-12 col-sm-6 col-md-4 mb-md-0 mb-4">
-                    <h2 class="font-primary fw-bold fs-lg lh-36 text-black">STAY UPDATED</h2>
+                    <h2 class="font-primary fw-bold fs-lg lh-36 text-black z-5">STAY UPDATED</h2>
                     <p class="font-primary fw-normal fs-sm lh-16 color-midnight-pines opacity-60 max-w-460">Receive
-                        all
-                        the news, updates, and exclusive promotions directly in your inbox.</p>
+                        all the news, updates, and exclusive promotions directly in your inbox.</p>
                 </div>
                 <div class="col-12 col-sm-6 col-md-5 mb-md-0 mb-4">
                     <div class="d-flex align-items-center gap-12 mt-3">
@@ -316,16 +366,17 @@
                     </div>
                 </div>
             </div>
-            <!-- <svg class="svg mt-4 mr-40" width="14" height="14" viewBox="0 0 14 14" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M5.33333 6.33333L10.6138 1.25598C11.8846 0.03405 14 0.934679 14 2.69764V12C14 13.1046 13.1046 14 12 14H2.68067C0.920203 14 0.0185101 11.8897 1.23538 10.6176L5.33333 6.33333Z"
-                        fill="#0D1012" />
-                </svg> -->
+            <svg class="svg" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M5.33333 6.33333L10.6138 1.25598C11.8846 0.03405 14 0.934679 14 2.69764V12C14 13.1046 13.1046 14 12 14H2.68067C0.920203 14 0.0185101 11.8897 1.23538 10.6176L5.33333 6.33333Z"
+                    fill="#0D1012" />
+            </svg>
         </div>
+        <img src="./assets/image/png/section-6-gradient-img.png" alt="section-6-gradient-img"
+            class="blur-img d-lg-block d-none w-100">
     </section>
     <!--**** footer ****-->
-    <footer class="bg-color-4 mt-56">
+    <footer class="bg-color-4">
         <div class="container max-w-1344">
             <div class="d-flex align-items-center justify-content-center gap-5 pt-32">
                 <img src="./assets/image/svg/header-logo.svg" alt="header-logo">
@@ -350,13 +401,16 @@
                             <a href="#"><img src="./assets/image/svg/message-svg.svg" alt="message-svg"></a>
                         </div>
                         <div class="icon">
-                            <a href="#"><img src="./assets/image/svg/youtube-svg.svg" alt="youtube-svg"></a>
+                            <a href="https://www.youtube.com/" target="_blank"><img
+                                    src="./assets/image/svg/youtube-svg.svg" alt="youtube-svg"></a>
                         </div>
                         <div class="icon">
-                            <a href="#"><img src="./assets/image/svg/twitter-svg.svg" alt="twitter-svg"></a>
+                            <a href="https://x.com/i/flow/login" target="_blank"><img
+                                    src="./assets/image/svg/twitter-svg.svg" alt="twitter-svg"></a>
                         </div>
                         <div class="icon">
-                            <a href="#"><img src="./assets/image/svg/discord-svg.svg" alt="discord-svg"></a>
+                            <a href="https://discord.com/login" target="_blank"><img
+                                    src="./assets/image/svg/discord-svg.svg" alt="discord-svg"></a>
                         </div>
                     </div>
                 </div>

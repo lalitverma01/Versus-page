@@ -15,9 +15,7 @@
     background-image: url(../image/png/section-3-img.png) !important;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
     background-position: center;
-    max-height: 988px;
 }
 
 .bg-image-3 {
@@ -90,8 +88,8 @@
     padding-bottom: 32px;
 }
 
-.mt-56 {
-    margin-top: 56px;
+.mb-56 {
+    margin-bottom: 56px;
 }
 
 .pt-95 {
@@ -151,8 +149,16 @@
     margin-top: 96px;
 }
 
+.mb-132 {
+    margin-bottom: 132px;
+}
+
 .mt-141 {
     margin-top: 141px;
+}
+
+.mt-164 {
+    margin-top: 164px;
 }
 
 .mt-181 {
@@ -212,7 +218,7 @@
 }
 
 .z-5 {
-    z-index: 5;
+    z-index: 5 !important;
 }
 
 .dropdown-box {
@@ -221,6 +227,30 @@
 }
 
 /***** header *****/
+.carousel-control-prev-icon {
+    background-image: url(../image/svg/left-arrow.svg) !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url(../image/svg/right-arrow.svg) !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 48px !important;
+    height: 4px !important;
+    cursor: pointer;
+    background-color: var(--bg-river-styx) !important;
+    opacity: 100% !important;
+}
+
+.carousel-indicators .active {
+    background-color: var(--bg-lime-yellow) !important;
+    opacity: 100% !important;
+}
+
+.heading {
+    transform: translateY(-50%);
+}
 
 .nav-links {
     border-radius: 40px;
@@ -232,14 +262,14 @@
 
 .btn-1 {
     border-radius: 12px;
-    border: none;
+    border: 1px solid var(--bg-river-styx);
     padding: 12px 16px 12px 16px;
     transition: all 200ms linear;
 }
 
 .btn-1:hover {
     color: var(--bg-lime-yellow) !important;
-    background-color: var(--bg-black-pearl);
+    border: 1px solid var(--bg-lime-yellow) !important;
 }
 
 .btn-2 {
@@ -282,6 +312,11 @@
     gap: 24px;
 }
 
+.coming-soon-img {
+    top: 0%;
+    left: 0;
+}
+
 /***** section-3 *****/
 .video {
     border-radius: 16px;
@@ -295,6 +330,14 @@
 
 /***** section-4 *****/
 .icon-parent {
+    width: 114px;
+    gap: 8px;
+    border-radius: 72px;
+    padding: 8px 12px 8px 12px;
+    background: var(--Colors-Neutrals-Neutral-700, var(--bg-river-styx));
+}
+
+.icon-parent-2 {
     width: 132px;
     gap: 8px;
     border-radius: 72px;
@@ -367,13 +410,20 @@ input {
 
 .svg {
     position: absolute;
-    right: 0%;
-    bottom: 0%;
+    right: 8px;
+    bottom: 8px;
 }
 
 .section-6-img {
     top: 19%;
     right: 0;
+}
+
+.blur-img {
+    position: absolute;
+    left: 0;
+    bottom: -35%;
+    z-index: -1;
 }
 
 /***** footer *****/
@@ -438,6 +488,10 @@ input {
     .ml-24 {
         margin-left: 0px;
     }
+
+    .video {
+        width: 100%;
+    }
 }
 
 @media (max-width:575.98px) {
@@ -457,5 +511,10 @@ input {
 
     .bg-color {
         width: 100%;
+    }
+
+    .btn-left-img,
+    .btn-right-img {
+        display: none;
     }
 }
