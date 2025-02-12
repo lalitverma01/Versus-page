@@ -80,15 +80,14 @@
 
 @media (max-width:767.98px) {
     :root {
-        --fs-xl: 60px;
-        --lh-86: normal;
+        --fs-xl: 70px;
     }
 }
 
 @media (max-width:575.98px) {
     :root {
-        --fs-xl: 48px;
-        --lh-86: normal;
+        --fs-xl: 53px;
+        --fs-lg: 27px;
     }
 
     .footer-tag {
