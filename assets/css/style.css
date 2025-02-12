@@ -59,6 +59,10 @@
     max-width: 991px;
 }
 
+.max-w-1048 {
+    max-width: 1048px;
+}
+
 .max-w-1344 {
     max-width: 1344px;
 }
@@ -123,6 +127,10 @@
 
 .mt-47 {
     margin-top: 47px;
+}
+
+.mt-57 {
+    margin-top: -57px;
 }
 
 .mt-96 {
@@ -413,7 +421,6 @@ input {
     color: var(--color-dark-sea);
     background: var(--Colors-Neutrals-Neutral-800, var(--bg-ruined-smores));
     border: none;
-    outline: var(--color-black);
 }
 
 .bg-color-3 {
@@ -500,6 +507,10 @@ input {
     .ml-8 {
         margin-left: 0px !important;
     }
+
+    .mt-57 {
+        margin-top: -15px;
+    }
 }
 
 @media (max-width:777.98px) {
@@ -521,6 +532,10 @@ input {
 
     .lh-86 {
         line-height: normal;
+    }
+
+    .mt-57 {
+        margin-top: -10px;
     }
 }
 
