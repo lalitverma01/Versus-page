@@ -183,6 +183,9 @@
     transform-origin: left;
     border-radius: 10px;
     background-color: var(--color-white);
+}
+
+.cursor-pointer {
     cursor: pointer;
 }
 
@@ -457,11 +460,11 @@ input {
     background-color: var(--bg-ruined-smores);
 }
 
-.links {
+.link {
     transition: all 200ms linear;
 }
 
-.links:hover {
+.link:hover {
     color: var(--bg-lime-yellow);
 }
 
