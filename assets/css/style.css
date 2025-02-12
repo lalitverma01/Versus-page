@@ -9,6 +9,7 @@
     background-image: url(../image/png/header-bg-img.png) !important;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 
 .bg-image-2 {
@@ -54,8 +55,8 @@
     max-width: 835px;
 }
 
-.max-w-965 {
-    max-width: 965px;
+.max-w-991 {
+    max-width: 991px;
 }
 
 .max-w-1344 {
@@ -266,7 +267,7 @@
     width: 48px !important;
     height: 4px !important;
     border-radius: 24px !important;
-    background: var(--Colors-Neutrals-Neutral-700, #151A1F);
+    background: var(--bg-river-styx);
 }
 
 .carousel-indicators .active {
@@ -274,8 +275,16 @@
     opacity: 100% !important;
 }
 
-.heading {
-    transform: translateY(-50%);
+.hero-content {
+    transform: translateY(-330px);
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.trasform-translateY-15 {
+    transform: translateY(15px);
 }
 
 .nav-links {
