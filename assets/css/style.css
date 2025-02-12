@@ -72,10 +72,6 @@
     padding-left: 8px;
 }
 
-.pl-24 {
-    padding-left: 24px;
-}
-
 .pt-32 {
     padding-top: 32px;
 }
@@ -97,16 +93,8 @@
 }
 
 /***** margin *****/
-.ml-8 {
-    margin-left: 8px !important;
-}
-
 .mt-12 {
     margin-top: 12px !important;
-}
-
-.mb-12 {
-    margin-bottom: 12px;
 }
 
 .mt-20 {
@@ -137,36 +125,12 @@
     margin-top: 47px;
 }
 
-.ml-65 {
-    margin-left: 65px;
-}
-
 .mt-96 {
     margin-top: 96px;
 }
 
 .mb-96 {
     margin-bottom: 96px;
-}
-
-.mb-132 {
-    margin-bottom: 132px;
-}
-
-.mt-141 {
-    margin-top: 141px;
-}
-
-.mt-164 {
-    margin-top: 164px;
-}
-
-.pt-181 {
-    padding-top: 181px;
-}
-
-.pb-199 {
-    padding-bottom: 199px;
 }
 
 /***** opacity *****/
@@ -181,10 +145,6 @@
 /***** gap *****/
 .gap-12 {
     gap: 12px;
-}
-
-.gap-32 {
-    gap: 32px;
 }
 
 /***** line-height *****/
@@ -206,6 +166,10 @@
 
 .lh-86 {
     line-height: 86px;
+}
+
+.letter-spacing-3 {
+    letter-spacing: 3.2px;
 }
 
 /***** nav-bar *****/
@@ -255,7 +219,7 @@
 }
 
 .dropdown-toggle::after {
-    color: var(--Colors-Neutrals-Neutral-500, var(--color-black));
+    display: none;
 }
 
 /***** header *****/
@@ -268,8 +232,13 @@
 }
 
 .carousel-indicators [data-bs-target] {
-    width: 48px !important;
-    height: 4px !important;
+    width: 48px;
+    height: 4px;
+    border-top: unset !important;
+    border-bottom: unset !important;
+    border-radius: 24px;
+    background: var(--Colors-Neutrals-Neutral-700, var(--bg-river-styx));
+    opacity: 100%;
 }
 
 .carousel-indicators .active {
@@ -278,15 +247,11 @@
 }
 
 .carousel-indicators {
-    transform: translateY(-281px);
+    transform: translateY(-231px);
 }
 
 .hero-content {
-    transform: translateY(-330px);
-}
-
-.mt-40 {
-    margin-top: 40px;
+    transform: translateY(-270px);
 }
 
 .trasform-translateY-15 {
@@ -295,10 +260,7 @@
 
 .nav-links {
     border-radius: 40px;
-    padding-top: 2px;
-    padding-right: 8px;
-    padding-bottom: 2px;
-    padding-left: 8px;
+    padding: 2px 8px 2px 8px;
 }
 
 .btn-1 {
@@ -534,10 +496,6 @@ input {
 
     .ml-8 {
         margin-left: 0px !important;
-    }
-
-    .pl-24 {
-        padding-left: 0px;
     }
 }
 
