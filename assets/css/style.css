@@ -14,7 +14,7 @@
 
 .bg-image-2 {
     background-image: url(../image/png/section-3-img.png) !important;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
