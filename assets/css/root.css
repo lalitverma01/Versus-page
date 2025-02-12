@@ -50,27 +50,6 @@
     font-size: var(--fs-xl);
 }
 
-/***** line-height *****/
-.lh-16 {
-    line-height: var(--lh-16);
-}
-
-.lh-20 {
-    line-height: var(--lh-20);
-}
-
-.lh-24 {
-    line-height: var(--lh-24);
-}
-
-.lh-36 {
-    line-height: var(--lh-36);
-}
-
-.lh-86 {
-    line-height: var(--lh-86);
-}
-
 .color-lime-yellow {
     color: var(--color-lime-yellow);
 }
@@ -110,5 +89,9 @@
     :root {
         --fs-xl: 48px;
         --lh-86: normal;
+    }
+
+    .footer-tag {
+        font-size: var(--fs-sm) !important;
     }
 }
