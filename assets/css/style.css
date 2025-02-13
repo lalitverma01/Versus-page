@@ -335,6 +335,13 @@
     left: 0;
 }
 
+.slider-img {
+    transition: all 200ms linear;
+}
+
+.slider-img:hover {
+    transform: scale(1.1);
+}
 /***** section-3 *****/
 .video {
     border-radius: 16px;
