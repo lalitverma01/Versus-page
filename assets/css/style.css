@@ -420,7 +420,6 @@
     border-bottom-left-radius: 8px;
     background: var(--Colors-Neutrals-Neutral-800, var(--bg-ruined-smores));
     width: 100%;
-    height: 208px;
 }
 
 .img-fluid {
