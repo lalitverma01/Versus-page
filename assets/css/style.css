@@ -336,26 +336,7 @@
 }
 
 /***** section-3 *****/
-/* .video {
-    border-radius: 16px;
-}
-
-.section-3-top-img {
-    top: -15%;
-    position: absolute;
-} */
-
-.bg-img-2 {
-    background-image: url(../image/png/section-2-bg-img.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
-}
-
 .video {
-    max-width: 888px;
-    width: 100%;
-    height: 480px;
     border-radius: 16px;
 }
 
@@ -536,6 +517,10 @@ input {
 
     .mt-57 {
         margin-top: -15px;
+    }
+
+    .bg-image-2 {
+        background-size: cover;
     }
 }
 
