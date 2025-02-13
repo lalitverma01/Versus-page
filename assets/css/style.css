@@ -337,22 +337,22 @@
 
 .slider-img {
     transition: all 200ms linear;
+    max-width: 286px !important;
+    height: 304px !important;
+    width: 100% !important;
 }
 
 .slider-img:hover {
     transform: scale(1.1);
 }
+
 /***** section-3 *****/
 .video {
     border-radius: 16px;
 }
 
-.mt-199 {
-    margin-top: 199px;
-}
-
-.mb-133 {
-    margin-bottom: 133px;
+.mb-103 {
+    margin-bottom: 103px;
 }
 
 /***** section-4 *****/
@@ -423,6 +423,20 @@
     border-bottom-left-radius: 8px;
     background: var(--Colors-Neutrals-Neutral-800, var(--bg-ruined-smores));
     backdrop-filter: blur(40px)
+}
+
+.img-fluid {
+    width: 668px;
+    height: 360px;
+}
+
+.horse-img,
+.game-character-img,
+.paracute-img {
+    width: 180px;
+    height: 173px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
 
 /***** section-6 *****/
@@ -570,9 +584,18 @@ input {
     .game-character-img,
     .paracute-img {
         width: 100%;
+        height: unset;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
     }
 
     .bg-color {
         width: 100%;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        border-top-right-radius: 0px;
+        padding: 16px 24px 24px 10px;
     }
 }
