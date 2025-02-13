@@ -323,6 +323,7 @@
     background: var(--Colors-Neutrals-Neutral-800, var(--bg-ruined-smores));
     border: 1px solid var(--Colors-Neutrals-Neutral-700, var(--bg-river-styx));
     backdrop-filter: blur(40px);
+    filter: grayscale(100%);
 }
 
 .slick-track {
@@ -339,6 +340,32 @@
     width: 286px !important;
     height: 304px !important;
     width: 100% !important;
+}
+
+.card-1:hover {
+    filter: grayscale(0%);
+    cursor: pointer;
+}
+
+.card-1:hover .coming-soon-img {
+    display: none;
+}
+
+.slider-img,
+.section-2-svg {
+    filter: grayscale();
+}
+
+.card-1:hover .slider-img {
+    filter: none;
+}
+
+.card-1:hover .section-2-svg {
+    filter: none;
+}
+
+.card-1:hover .coming-soon-img {
+    display: none;
 }
 
 /***** section-3 *****/
