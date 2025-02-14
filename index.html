@@ -20,10 +20,10 @@
 
 <body class="bg-black">
     <header class="bg-image">
-        <nav class="bg-river-styx">
+        <nav class="bg-river-styx h-56">
             <div class="container max-w-1440">
                 <div
-                    class="d-flex justify-content-between w-100 nav-bar mx-auto bg-light-black justify-content-center align-items-center">
+                    class="d-flex justify-content-between w-100 nav-bar h-56 mx-auto bg-light-black justify-content-center align-items-center">
                     <div class="d-flex justify-content-center align-items-center">
                         <a href="#" class="header-logo">
                             <img class="header-logo-image" src="./assets/image/svg/header-logo.svg" alt="logo" />
@@ -53,26 +53,26 @@
                                     href="#">Coming Soon</a>
                             </li>
                             <li class="d-lg-none">
-                                <button class="btn-1 font-primary fw-semibold fs-6 lh-16 bg-black-pearl text-white">
-                                    Log In</button>
+                                <button class="btn-1 font-primary fw-medium fs-6 lh-16 bg-black-pearl text-white">
+                                    LOG IN</button>
                             </li>
                             <li class="d-lg-none">
                                 <button class="btn-2 font-primary fw-medium fs-6 lh-16 bg-lime-yellow text-black">
-                                    Sign Up</button>
+                                    SIGN UP</button>
                             </li>
                         </ul>
                     </div>
-                    <div onclick="navbarbtn()" class="z-5 d-lg-none cursor-pointer me-4">
+                    <div onclick="navbarbtn()" class="z-5 d-lg-none cursor-pointer">
                         <span class="menu-lines" id="rotats"></span>
                         <span class="menu-lines" id="transparent"></span>
                         <span class="menu-lines" id="rotats2"></span>
                     </div>
                     <ul class="d-flex gap-3 list-unstyled mb-0 nav-link">
-                        <li><button class="btn-1 font-primary fw-semibold fs-6 lh-16 bg-black-pearl text-white">
-                                Log In</button>
+                        <li><button class="btn-1 font-primary fw-medium fs-6 lh-16 bg-black-pearl text-white">
+                                LOG IN</button>
                         </li>
                         <li><button class="btn-2 font-primary fw-medium fs-6 lh-16 bg-lime-yellow text-black">
-                                Sign Up</button>
+                                SIGN UP</button>
                         </li>
                     </ul>
                 </div>
@@ -175,8 +175,10 @@
                 </div>
                 <div class="card-1">
                     <img src="./assets/image/png/slider-img-2.png" alt="slider-img-2" class="w-100 slider-img">
+                    <img src="./assets/image/png/coming-soon-img.png" alt="coming-soon-img"
+                        class="position-absolute coming-soon-img">
                     <div class="d-flex align-items-center gap-12 mt-4">
-                        <img src="./assets/image/svg/apex-legends-svg.svg" alt="apex-legends-svg">
+                        <img class="section-2-svg" src="./assets/image/svg/apex-legends-svg.svg" alt="apex-legends-svg">
                         <div>
                             <p class="font-primary fw-bold fs-6 lh-16 text-white mb-0">APEX LEGENDS</p>
                             <P class="font-primary fw-normal fs-sm lh-16 text-white opacity-40 mb-0 mt-1">7
@@ -185,11 +187,9 @@
                     </div>
                 </div>
                 <div class="card-1">
-                    <div class="img-parent">
-                        <img src="./assets/image/png/slider-img-3.png" alt="slider-img-3" class="w-100 slider-img">
-                        <img src="./assets/image/png/coming-soon-img.png" alt="coming-soon-img"
-                            class="position-absolute coming-soon-img">
-                    </div>
+                    <img src="./assets/image/png/slider-img-3.png" alt="slider-img-3" class="w-100 slider-img">
+                    <img src="./assets/image/png/coming-soon-img.png" alt="coming-soon-img"
+                        class="position-absolute coming-soon-img">
                     <div class="d-flex align-items-center gap-12 mt-4">
                         <svg class="section-2-svg" width="40" height="40" viewBox="0 0 40 40" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -204,11 +204,9 @@
                     </div>
                 </div>
                 <div class="card-1">
-                    <div class="img-parent">
-                        <img src="./assets/image/png/slider-img-4.png" alt="slider-img-4" class="w-100 slider-img">
-                        <img src="./assets/image/png/coming-soon-img.png" alt="coming-soon-img"
-                            class="position-absolute coming-soon-img">
-                    </div>
+                    <img src="./assets/image/png/slider-img-4.png" alt="slider-img-4" class="w-100 slider-img">
+                    <img src="./assets/image/png/coming-soon-img.png" alt="coming-soon-img"
+                        class="position-absolute coming-soon-img">
                     <div class="d-flex align-items-center gap-12 mt-4">
                         <svg class="section-2-svg" width="40" height="40" viewBox="0 0 40 40" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -258,13 +256,13 @@
                 <img src="./assets/image/png/section-4-img-1.png" alt="section-4-img-1" class="mt-40 section-4-img">
                 <div class="row">
                     <div class="col-12 col-lg-6 pl-96">
-                        <div class="d-sm-flex align-items-center gap-2">
+                        <div class="d-flex align-items-center gap-2 flex-wrap">
                             <div class="d-flex gap-2 align-items-center">
                                 <div class="d-flex align-items-center icon-parent mb-3 mb-sm-0">
                                     <img src="./assets/image/svg/cursor-icon.svg" alt="cursor-icon">
                                     <h5 class="font-primary fw-bold fs-sm lh-16 text-white mb-0">MEET</h5>
                                 </div>
-                                <div class="d-flex align-items-center icon-parent-2 mb-3 mb-sm-0">
+                                <div class="d-flex align-items-center icon-parent mb-3 mb-sm-0">
                                     <img src="./assets/image/svg/trophy-icon.svg" alt="trophy-icon">
                                     <h5 class="font-primary fw-bold fs-sm lh-16 text-white mb-0">COMPLETE</h5>
                                 </div>
@@ -307,7 +305,7 @@
                 </a>
             </div>
             <div class="row">
-                <div class="col-12 col-md-6 mb-4">
+                <div class="col-12 col-lg-6 mb-4">
                     <img src="./assets/image/png/section-5-img-1.png" alt="section-5-img-1" class="img-fluid">
                     <div class="background-color">
                         <div class="box ml-24">
@@ -324,7 +322,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-lg-6">
                     <div class="d-sm-flex align-items-center mb-4">
                         <img src="./assets/image/svg/horse-img.svg" alt="horse-img" class="horse-img">
                         <div class="bg-color">
@@ -389,8 +387,10 @@
                 <div class="col-12 col-sm-6 col-md-4 mb-md-0 mb-4">
                     <div class="d-flex align-items-center gap-12 mt-3">
                         <input type="text" placeholder="Your e-mail" class="w-100">
-                        <a href="#" class="bg-color-3 z-3">
-                            <img src="./assets/image/svg/arrow-right-svg.svg" alt="arrow-right-svg">
+                        <a href="#">
+                            <button class="border-0 d-flex align-items-center bg-color-3 z-3">
+                                <img src="./assets/image/svg/arrow-right-svg.svg" alt="arrow-right-svg">
+                            </button>
                         </a>
                     </div>
                 </div>
@@ -418,33 +418,20 @@
                     <div class="d-flex align-items-center gap-2 text-decoration-none">
                         <input type="text" placeholder="Your e-mail" class="w-100 email">
                         <a href="#">
-                            <div class="box-3 bg-lime-yellow">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M3.33359 8.00016H11.8696M7.99999 3.3335L12.6667 8.00016L7.99999 12.6668"
-                                        stroke="black" stroke-width="2.5" stroke-linecap="square"
-                                        stroke-linejoin="round" />
-                                </svg>
-                            </div>
+                            <button class="box-3 bg-lime-yellow d-flex align-items-center border-0">
+                                <img src="./assets/image/svg/arrow-svg-2.svg" alt="" class="arrow-svg">
+                            </button>
                         </a>
                     </div>
                     <div class="d-flex align-items-center gap-4 mt-4">
-                        <div class="icon">
-                            <a href="https://www.twitch.tv/" target="_blank"><img
-                                    src="./assets/image/svg/message-svg.svg" alt="message-svg"></a>
-                        </div>
-                        <div class="icon">
-                            <a href="https://www.youtube.com/" target="_blank"><img
-                                    src="./assets/image/svg/youtube-svg.svg" alt="youtube-svg"></a>
-                        </div>
-                        <div class="icon">
-                            <a href="https://x.com/i/flow/login" target="_blank"><img
-                                    src="./assets/image/svg/twitter-svg.svg" alt="twitter-svg"></a>
-                        </div>
-                        <div class="icon">
-                            <a href="https://discord.com/login" target="_blank"><img
-                                    src="./assets/image/svg/discord-svg.svg" alt="discord-svg"></a>
-                        </div>
+                        <a class="icon" href="https://www.twitch.tv/" target="_blank"><img
+                                src="./assets/image/svg/message-svg.svg" alt="message-svg"></a>
+                        <a class="icon" href="https://www.youtube.com/" target="_blank"><img
+                                src="./assets/image/svg/youtube-svg.svg" alt="youtube-svg"></a>
+                        <a class="icon" href="https://x.com/i/flow/login" target="_blank"><img
+                                src="./assets/image/svg/twitter-svg.svg" alt="twitter-svg"></a>
+                        <a class="icon" href="https://discord.com/login" target="_blank"><img
+                                src="./assets/image/svg/discord-svg.svg" alt="discord-svg"></a>
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
@@ -517,14 +504,15 @@
                     </div>
                 </div>
             </div>
-            <div class="line mt-32 mb-4"></div>
-            <div class="d-flex justify-content-center">
-                <p class="font-primary fw-normal fs-very-small lh-18 text-center color-dark-sea pb-32 max-w-991">
-                    Verus is neither endorsed nor directly affiliated with Apple Inc, Electronic Arts, Activision
-                    Blizzard, Take-Two Interactive, Riot Games, Microsoft, Xbox, or Epic Games. It does not receive
-                    maintenance or sponsorship from these companies. All trademarks, trade names, game titles, trade
-                    dress, artwork, and associated imagery belong to their respective owners</p>
-            </div>
+        </div>
+        <div class="line mt-32 mb-4"></div>
+        <div class="d-flex justify-content-center">
+            <p class="font-primary fw-normal fs-very-small lh-18 text-center color-dark-sea pb-32 max-w-991">
+                Verus is neither endorsed nor directly affiliated with Apple Inc, Electronic Arts, Activision
+                Blizzard, Take-Two Interactive, Riot Games, Microsoft, Xbox, or Epic Games. It does not receive
+                maintenance or sponsorship from these companies. All trademarks, trade names, game titles, trade
+                dress, artwork, and associated imagery belong to their respective owners</p>
+        </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
